@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+    id 'org.gradle.java.experimental-jigsaw' version '0.1.1'  // <1>}
+
+    id "org.jetbrains.kotlin.jvm" version "1.2.70"
+
+
+}
+
+dependencies {
+
+}
+
+javaModule.name = 'singleton'
